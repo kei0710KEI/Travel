@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>旅行アプリ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>旅行アプリ</h1>
+  </header>
+
+  <section id="weather">
+    <h2>天気情報</h2>
+    <div id="weather-info">
+      <p>場所を選んで天気を確認できます。</p>
+    </div>
+    <input type="text" id="location" placeholder="都市名を入力">
+    <button onclick="getWeather()">天気を取得</button>
+  </section>
+
+  <section id="currency">
+    <h2>通貨換算</h2>
+    <input type="number" id="amount" placeholder="金額">
+    <button onclick="convertCurrency()">換算する</button>
+    <p id="currency-result"></p>
+  </section>
+
+  <footer>
+    <p>© 2024 旅行アプリ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://res.cloudinary.com/tabikobo/images/c_scale,w_448,h_297,dpr_2/f_auto,q_auto/v1689847580/wordpress_tabi-pocket/b9baf060648d5019a49026108b45028f/b9baf060648d5019a49026108b45028f.jpg?_i=AA'); /* ここに画像URLを入力 */
+  background-size: cover; /* 画像が画面いっぱいに広がる */
+  background-position: center center; /* 画像を中央に配置 */
+  background-attachment: fixed; /* スクロールしても背景が固定される */
+}
+
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
